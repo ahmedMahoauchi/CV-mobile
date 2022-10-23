@@ -12,7 +12,7 @@ class CareerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_career)
-
+        val a:String
         val btnEducation = findViewById<Button>(R.id.btn_education)
         val btnExperience = findViewById<Button>(R.id.btn_experience)
 
