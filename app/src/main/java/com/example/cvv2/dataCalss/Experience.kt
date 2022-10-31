@@ -17,7 +17,7 @@ data class Experience(
         companion object {
         fun getAutoId(): Int {
             val random = Random()
-            return random.nextInt(100)
+            return random.nextInt(999999999)
         }
     }
     }

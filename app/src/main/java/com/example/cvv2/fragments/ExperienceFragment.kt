@@ -33,6 +33,7 @@ class ExperienceFragment : Fragment() {
 
 
 
+
         var adapter=ExperienceAdapter(sqLiteHelper.getAllExperiences(),this.context)
         rv.adapter=adapter
 

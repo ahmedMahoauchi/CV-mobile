@@ -12,6 +12,8 @@ class SQLiteHelper(context: Context?) : SQLiteOpenHelper(context, DATABASE_NAME,
     companion object {
         private const val DATABASE_VERSION = 1
         private const val DATABASE_NAME = "cvv2.db"
+
+
         private const val TBL_EXPERIENCE = "tbl_experience"
         private const val ID = "id"
         private const val NAME = "name"
@@ -20,6 +22,16 @@ class SQLiteHelper(context: Context?) : SQLiteOpenHelper(context, DATABASE_NAME,
         private const val DESCRIPTION = "description"
         private const val START_DATE = "start_date"
         private const val IMAGE = "image"
+
+        //table experience
+        private const val TBL_EDUCATION = "tbl_education"
+        private const val ID_EDUCATION = "id"
+        private const val NAME_EDUCATION = "name"
+        private const val ADDRESS_EDUCATION = "address"
+        private const val  END_DATE_EDUCATION= "end_date"
+        private const val DESCRIPTION_EDUCATION = "description"
+        private const val START_DATE_EDUCATION = "start_date"
+        private const val IMAGE_EDUCATION = "image_education"
     }
 
 
@@ -92,6 +104,13 @@ class SQLiteHelper(context: Context?) : SQLiteOpenHelper(context, DATABASE_NAME,
 
         cursor.close()
         return exprList
+    }
+
+    fun deleteExperience(expr: Experience): Int {
+        val db = this.writableDatabase
+        val success = db.delete(TBL_EXPERIENCE, ID + "=" + expr.id, null)
+        db.close()
+        return success
     }
 
 }

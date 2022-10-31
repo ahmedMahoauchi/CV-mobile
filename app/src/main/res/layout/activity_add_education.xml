@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:padding="8dp"
     tools:context=".AddEducationActivity">
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/end_date"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -96,6 +95,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
