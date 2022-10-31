@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             intent = Intent(this,MainActivity2::class.java)
             intent.putExtra("gender",resources.getResourceEntryName(radioGroup.checkedRadioButtonId).toString())
-            val selectedRadio = radioGroup.checkedRadioButtonId
+
             val textFields = arrayOf<TextInputLayout>(name, email, age) //explicit type declaration
             name.error = null
             email.error = null

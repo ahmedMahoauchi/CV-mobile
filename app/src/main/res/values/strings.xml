@@ -31,5 +31,16 @@
     <string name="experience">Experience</string>
     <string name="education">education</string>
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+    <string name="add_education">Add Education</string>
+    <string name="add_experience">add experience</string>
+    <string name="company_name">Company Name</string>
+    <string name="company_address">Company Address</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="add_experice">Add Experice</string>
+    <string name="university_name">University Name</string>
+    <string name="university_adress">University Adress</string>
+    <string name="compose">Compose</string>
+    <string name="companyDescription">Description</string>
 
 </resources>

@@ -6,6 +6,13 @@
         android:id="@+id/resume"
         android:icon="@drawable/ic_baseline_info_24"
         app:showAsAction="ifRoom"
-        android:title="Compose">
+        android:title="@string/compose">
     </item>
-</menu>
+
+       <item
+           android:id="@+id/logout"
+           android:icon="@drawable/ic_baseline_logout_24"
+           app:showAsAction="ifRoom"
+           android:title="@string/compose">
+       </item>
+   </menu>

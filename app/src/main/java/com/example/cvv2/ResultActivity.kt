@@ -110,7 +110,7 @@ class ResultActivity : AppCompatActivity() {
         return true;
     }
 
-
+    //TODO logout
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         // Handle presses on the action bar items
         when (item.getItemId()) {

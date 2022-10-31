@@ -18,7 +18,7 @@ class MainActivity2 : AppCompatActivity() {
         val actionBar = supportActionBar
         actionBar!!.title = "Your skills"
 
-        var iosText : Int
+
 
 
 
@@ -35,16 +35,6 @@ class MainActivity2 : AppCompatActivity() {
 
 
 
-
-
-
-
-
-
-
-
-
-
         val name = intent.getStringExtra("name")
         val email = intent.getStringExtra("email")
         val age = intent.getStringExtra("age")
@@ -55,13 +45,7 @@ class MainActivity2 : AppCompatActivity() {
         intent.putExtra("age",age)
         intent.putExtra("gender",gender)
 
-
-
-
-
-
-
-
+        //TODO CheckBox
         submit.setOnClickListener {
             intent.putExtra("iosSkills",seekIos.progress)
             intent.putExtra("flutterSkills",seekFlutter.progress)

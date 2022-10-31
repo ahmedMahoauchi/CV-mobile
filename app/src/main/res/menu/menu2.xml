@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_education"
+
+        android:title="@string/add_education">
+    </item>
+
+    <item
+        android:id="@+id/menu_experience"
+        android:title="@string/add_experience">
+    </item>
+</menu>
